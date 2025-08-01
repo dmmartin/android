@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Override crDroid or Lineage repos with your forks -->
+
+  <!--remote  name="cincaiandroid"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="10"
+           revision="refs/heads/15.0" -->
+  
+  <project name="dmmartin/android_frameworks_base"
+           path="frameworks/base"
+           remote="cincaiandroid"
+           revision="cincai-dev" />
+
+  <project name="dmmartin/android_vendor_cincaiAndroidOTA"
+           path="vendor/cincaiAndroidOTA"
+           remote="cincaiandroid"
+           revision="main" />
+
+  <project name="android"
+           path="android"
+           remote="cincaiandroid"
+           revision="cincai-dev" />
+
+  <!-- work in progress
+  <project name="dmmartin/android_packages_apps_Settings"
+           path="packages/apps/Settings"
+           remote="cincaiandroid"
+           revision="cincai-dev" -->
+
+  <!--project name="dmmartin/android_vendor_cincai"
+           path="vendor/cincai"
+           remote="cincaiandroid"
+           revision="main"-->
+
+  <!--project path="android" name="dmmartin/android" remote="cincaiandroid" revision="cincai-dev" />-->
+</manifest>
