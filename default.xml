@@ -10,7 +10,7 @@
 
 
   <remote name="cincaiandroid"
-          fetch="https://github.com/dmmartin/android.git" />
+          fetch="https://github.com/dmmartin" />
 
   <remote name="crdroid"
           fetch="https://github.com/crdroidandroid"
