@@ -12,7 +12,7 @@
           fetch="https://github.com/dmmartin" />
 
   <remote name="crdroid"
-          fetch="https://github.com/crdroidandroid"
+          fetch="https://github.com"
           review="review.crdroid.net" />
   
   <remote name="aosp"
