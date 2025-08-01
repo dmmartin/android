@@ -11,10 +11,10 @@
   <remote name="cincaiandroid"
           fetch="https://github.com/dmmartin" />
 
-  <!--remote name="crdroid"
+  <remote name="crdroid"
           fetch="https://github.com/crdroidandroid"
-          review="review.crdroid.net" />-->
-
+          review="review.crdroid.net" />
+  
   <remote name="aosp"
           fetch="https://android.googlesource.com"
           review="android-review.googlesource.com"
